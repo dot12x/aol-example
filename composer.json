@@ -1,0 +1,20 @@
+{
+    "name": "dot12x/aol-demo",
+    "description": "php-aol demo app",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Sattorbek",
+            "email": "sattor12x@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.4",
+        "php-aol/php-aol": "^0.0.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Demo\\": "src/"
+        }
+    }
+}
